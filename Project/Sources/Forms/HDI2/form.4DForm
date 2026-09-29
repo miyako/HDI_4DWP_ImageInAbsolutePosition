@@ -1,0 +1,595 @@
+{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 957,
+					"height": 742,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"varTxt": {
+					"type": "input",
+					"top": 70,
+					"left": 40,
+					"width": 917,
+					"height": 647,
+					"sizingX": "grow",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"ButtonDocument": {
+					"type": "button",
+					"top": 203,
+					"left": 270,
+					"width": 69,
+					"height": 45,
+					"tooltip": "Save the document",
+					"focusable": false,
+					"text": "Save",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/save.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/ButtonDocument.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"listDocument": {
+					"type": "dropdown",
+					"top": 213,
+					"left": 112,
+					"width": 150,
+					"height": 24,
+					"focusable": false,
+					"choiceList": [
+						"Teeth.4wp",
+						"Dino.4wp",
+						"Pill.4wp"
+					],
+					"method": "ObjectMethods/listDocument.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"TextDoc": {
+					"type": "text",
+					"top": 217,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Document:"
+				},
+				"WriteProArea": {
+					"type": "write",
+					"top": 375,
+					"left": 40,
+					"width": 917,
+					"height": 367,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDoc",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"showSelection": true,
+					"showVerticalRuler": false,
+					"method": "ObjectMethods/WriteProArea.4dm",
+					"events": [
+						"onLosingFocus",
+						"onDataChange",
+						"onSelectionChange",
+						"onMouseMove",
+						"onAfterEdit"
+					]
+				},
+				"ButtonAddPicture": {
+					"type": "button",
+					"top": 203,
+					"left": 340,
+					"width": 100,
+					"height": 45,
+					"tooltip": "Insert image with the WP Add picture command",
+					"focusable": false,
+					"text": "Insert Picture",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/addImage.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/ButtonAddPicture.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"zoomList": {
+					"type": "dropdown",
+					"top": 210,
+					"left": 806,
+					"width": 150,
+					"height": 24,
+					"sizingX": "move",
+					"focusable": false,
+					"action": "zoom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"TextZoom": {
+					"type": "text",
+					"top": 214,
+					"left": 713,
+					"width": 85,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Zoom:"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 188,
+					"left": 40,
+					"width": 917,
+					"sizingX": "grow",
+					"stroke": "#808080"
+				}
+			}
+		},
+		null,
+		null,
+		{
+			"objects": {
+				"horizontalList": {
+					"type": "dropdown",
+					"top": 303,
+					"left": 362,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorHorizontalAlign",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 306,
+					"left": 270,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Horizontal:"
+				},
+				"verticalList": {
+					"type": "dropdown",
+					"top": 333,
+					"left": 362,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorVerticalAlign",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 336,
+					"left": 270,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Vertical:"
+				},
+				"layerList": {
+					"type": "dropdown",
+					"top": 270,
+					"left": 112,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorLayout",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 273,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Layer:"
+				},
+				"3D Button": {
+					"type": "button",
+					"top": 203,
+					"left": 441,
+					"width": 100,
+					"height": 45,
+					"action": "moveToBack",
+					"focusable": false,
+					"text": "Move to back",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/moveToBack.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 203,
+					"left": 542,
+					"width": 100,
+					"height": 45,
+					"action": "moveToFront",
+					"focusable": false,
+					"text": "Move to front",
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/moveToFront.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"events": [
+						"onClick"
+					]
+				},
+				"sectionList": {
+					"type": "dropdown",
+					"top": 270,
+					"left": 362,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorSection",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 273,
+					"left": 270,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Section:"
+				},
+				"pageList": {
+					"type": "dropdown",
+					"top": 333,
+					"left": 112,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorPage",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 336,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Page:"
+				},
+				"originList": {
+					"type": "dropdown",
+					"top": 303,
+					"left": 112,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"action": "anchorOrigin",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 305,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Origin:"
+				},
+				"Popup Dropdown List5": {
+					"type": "dropdown",
+					"top": 271,
+					"left": 805,
+					"width": 150,
+					"height": 23,
+					"sizingX": "move",
+					"focusable": false,
+					"action": "image/outside/borderStyle",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text14": {
+					"type": "text",
+					"top": 273,
+					"left": 712,
+					"width": 85,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Border:"
+				},
+				"Popup Dropdown List6": {
+					"type": "dropdown",
+					"top": 241,
+					"left": 805,
+					"width": 150,
+					"height": 23,
+					"sizingX": "move",
+					"focusable": false,
+					"action": "image/backgroundColor",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 241,
+					"left": 683,
+					"width": 116,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Background color:"
+				},
+				"Popup Dropdown List7": {
+					"type": "dropdown",
+					"top": 333,
+					"left": 805,
+					"width": 150,
+					"height": 23,
+					"sizingX": "move",
+					"focusable": false,
+					"action": "image/inside/padding",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 336,
+					"left": 712,
+					"width": 85,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Padding:"
+				},
+				"Popup Dropdown List8": {
+					"type": "dropdown",
+					"top": 302,
+					"left": 805,
+					"width": 150,
+					"height": 23,
+					"sizingX": "move",
+					"focusable": false,
+					"action": "image/outside/borderColor",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text18": {
+					"type": "text",
+					"top": 306,
+					"left": 712,
+					"width": 85,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Border color:"
+				}
+			}
+		},
+		{
+			"objects": {
+				"varHorizontalOffset": {
+					"type": "input",
+					"top": 273,
+					"left": 666,
+					"width": 44,
+					"height": 17,
+					"dataSource": "valHorOff",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/varHorizontalOffset.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"varVerticalOffset": {
+					"type": "input",
+					"top": 305,
+					"left": 666,
+					"width": 44,
+					"height": 17,
+					"dataSource": "valVertOff",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/varVerticalOffset.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 273,
+					"left": 536,
+					"width": 122,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Horizontal Offset:"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 305,
+					"left": 534,
+					"width": 124,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Vertical Offset:"
+				},
+				"listLayer2": {
+					"type": "dropdown",
+					"top": 270,
+					"left": 112,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"wk behind of text",
+						"wk in front of text"
+					],
+					"method": "ObjectMethods/listLayer2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 273,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Layer:"
+				},
+				"listOrigin2": {
+					"type": "dropdown",
+					"top": 303,
+					"left": 112,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"wk paper box",
+						"wk header box",
+						"wk footer box"
+					],
+					"method": "ObjectMethods/listOrigin2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 305,
+					"left": 20,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Origin:"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 272,
+					"left": 272,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Horizontal:"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 306,
+					"left": 272,
+					"width": 85,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Vertical:"
+				},
+				"listHor2": {
+					"type": "dropdown",
+					"top": 270,
+					"left": 364,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"wk left",
+						"wk center",
+						"wk right"
+					],
+					"method": "ObjectMethods/listHor2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"listVert2": {
+					"type": "dropdown",
+					"top": 303,
+					"left": 364,
+					"width": 150,
+					"height": 23,
+					"focusable": false,
+					"choiceList": [
+						"wk top",
+						"wk center",
+						"wk bottom"
+					],
+					"method": "ObjectMethods/listVert2.4dm",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}
