@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_BtnSave" resname="HDI2_BtnSave">
+		<source>Save</source>
+		<target>Save</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelDocument" resname="HDI2_LabelDocument">
+		<source>Document:</source>
+		<target>Document:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertPicture" resname="HDI2_BtnInsertPicture">
+		<source>Insert Picture</source>
+		<target>Insert Picture</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelZoom" resname="HDI2_LabelZoom">
+		<source>Zoom:</source>
+		<target>Zoom:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelHorizontal" resname="HDI2_LabelHorizontal">
+		<source>Horizontal:</source>
+		<target>Horizontal:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelVertical" resname="HDI2_LabelVertical">
+		<source>Vertical:</source>
+		<target>Vertical:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelLayer" resname="HDI2_LabelLayer">
+		<source>Layer:</source>
+		<target>Layer:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnMoveToBack" resname="HDI2_BtnMoveToBack">
+		<source>Move to back</source>
+		<target>Move to back</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnMoveToFront" resname="HDI2_BtnMoveToFront">
+		<source>Move to front</source>
+		<target>Move to front</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelSection" resname="HDI2_LabelSection">
+		<source>Section:</source>
+		<target>Section:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelPage" resname="HDI2_LabelPage">
+		<source>Page:</source>
+		<target>Page:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelOrigin" resname="HDI2_LabelOrigin">
+		<source>Origin:</source>
+		<target>Origin:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBorder" resname="HDI2_LabelBorder">
+		<source>Border:</source>
+		<target>Border:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBackgroundColor" resname="HDI2_LabelBackgroundColor">
+		<source>Background color:</source>
+		<target>Background color:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelPadding" resname="HDI2_LabelPadding">
+		<source>Padding:</source>
+		<target>Padding:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBorderColor" resname="HDI2_LabelBorderColor">
+		<source>Border color:</source>
+		<target>Border color:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelHorizontalOffset" resname="HDI2_LabelHorizontalOffset">
+		<source>Horizontal Offset:</source>
+		<target>Horizontal Offset:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelVerticalOffset" resname="HDI2_LabelVerticalOffset">
+		<source>Vertical Offset:</source>
+		<target>Vertical Offset:</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

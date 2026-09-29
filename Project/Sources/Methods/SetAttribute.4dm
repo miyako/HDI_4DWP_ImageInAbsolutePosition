@@ -1,4 +1,6 @@
 //%attributes = {"invisible":true}
+var $val : Variant
+
 WP Get attributes:C1345(imgRange; wk anchor layout:K81:227; $val)
 Case of 
 	: ($val=wk behind text:K81:240)
@@ -8,7 +10,7 @@ Case of
 		OBJECT Get pointer:C1124(Object named:K67:5; "listLayer2")->:=2
 		
 	Else 
-		ALERT:C41("Sorry, not supported in this HDI")
+		ALERT:C41(Localized string("AlertNotSupported"))
 End case 
 
 
@@ -24,7 +26,7 @@ Case of
 		OBJECT Get pointer:C1124(Object named:K67:5; "listOrigin2")->:=3
 		
 	Else 
-		ALERT:C41("Sorry, not supported in this HDI")
+		ALERT:C41(Localized string("AlertNotSupported"))
 		
 End case 
 
@@ -41,7 +43,7 @@ Case of
 		OBJECT Get pointer:C1124(Object named:K67:5; "listHor2")->:=3
 		
 	Else 
-		ALERT:C41("Sorry, not supported in this HDI")
+		ALERT:C41(Localized string("AlertNotSupported"))
 		
 End case 
 
@@ -58,7 +60,7 @@ Case of
 		OBJECT Get pointer:C1124(Object named:K67:5; "listVert2")->:=3
 		
 	Else 
-		ALERT:C41("Sorry, not supported in this HDI")
+		ALERT:C41(Localized string("AlertNotSupported"))
 		
 End case 
 

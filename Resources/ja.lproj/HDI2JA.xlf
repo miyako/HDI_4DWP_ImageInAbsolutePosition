@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI2_BtnSave" resname="HDI2_BtnSave">
+		<source>Save</source>
+		<target>保存</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelDocument" resname="HDI2_LabelDocument">
+		<source>Document:</source>
+		<target>ドキュメント:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnInsertPicture" resname="HDI2_BtnInsertPicture">
+		<source>Insert Picture</source>
+		<target>画像を挿入</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelZoom" resname="HDI2_LabelZoom">
+		<source>Zoom:</source>
+		<target>ズーム:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelHorizontal" resname="HDI2_LabelHorizontal">
+		<source>Horizontal:</source>
+		<target>水平:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelVertical" resname="HDI2_LabelVertical">
+		<source>Vertical:</source>
+		<target>垂直:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelLayer" resname="HDI2_LabelLayer">
+		<source>Layer:</source>
+		<target>レイヤー:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnMoveToBack" resname="HDI2_BtnMoveToBack">
+		<source>Move to back</source>
+		<target>背面へ移動</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_BtnMoveToFront" resname="HDI2_BtnMoveToFront">
+		<source>Move to front</source>
+		<target>前面へ移動</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelSection" resname="HDI2_LabelSection">
+		<source>Section:</source>
+		<target>セクション:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelPage" resname="HDI2_LabelPage">
+		<source>Page:</source>
+		<target>ページ:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelOrigin" resname="HDI2_LabelOrigin">
+		<source>Origin:</source>
+		<target>原点:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBorder" resname="HDI2_LabelBorder">
+		<source>Border:</source>
+		<target>境界線:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBackgroundColor" resname="HDI2_LabelBackgroundColor">
+		<source>Background color:</source>
+		<target>背景色:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelPadding" resname="HDI2_LabelPadding">
+		<source>Padding:</source>
+		<target>パディング:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelBorderColor" resname="HDI2_LabelBorderColor">
+		<source>Border color:</source>
+		<target>境界線の色:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelHorizontalOffset" resname="HDI2_LabelHorizontalOffset">
+		<source>Horizontal Offset:</source>
+		<target>水平オフセット:</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_LabelVerticalOffset" resname="HDI2_LabelVerticalOffset">
+		<source>Vertical Offset:</source>
+		<target>垂直オフセット:</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

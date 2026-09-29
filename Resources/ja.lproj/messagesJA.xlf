@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Methods" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="AlertNotSupported" resname="AlertNotSupported">
+		<source>Sorry, not supported in this HDI</source>
+		<target>申し訳ございませんが、このHDIではサポートされていません</target>
+	  </trans-unit>
+	  <trans-unit id="AlertSelectImage" resname="AlertSelectImage">
+		<source>Please, select an image in your document.</source>
+		<target>ドキュメント内の画像を選択してください。</target>
+	  </trans-unit>
+	  <trans-unit id="AlertImpossible" resname="AlertImpossible">
+		<source>Impossible</source>
+		<target>不可能です</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

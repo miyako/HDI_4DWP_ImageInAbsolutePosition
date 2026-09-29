@@ -1,9 +1,11 @@
+var $type : Integer
+var $x; $y; $z : Integer
+
 Case of 
 	: (Form event code:C388=On Selection Change:K2:29)
 		
 		range:=WP Selection range:C1340(vDoc)
 		
-		C_LONGINT:C283($type)
 		WP Get attributes:C1345(range; wk type:K81:189; $type)
 		
 		If ($type=wk type image:K81:192)

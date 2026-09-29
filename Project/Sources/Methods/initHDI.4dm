@@ -6,5 +6,3 @@ ORDER BY:C49([Samples:1]; [Samples:1]SampleSort:4; >)
 SELECTION TO ARRAY:C260([Samples:1]Title:2; TabControl)
 SELECTION TO ARRAY:C260([Samples:1]Text:3; TextTabControl)
 UNLOAD RECORD:C212([Samples:1])
-
-TabControl:=1

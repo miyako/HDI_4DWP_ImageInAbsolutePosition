@@ -67,7 +67,7 @@
 					"height": 45,
 					"tooltip": "Save the document",
 					"focusable": false,
-					"text": "Save",
+					"text": ":xliff:HDI2_BtnSave",
 					"icon": "/RESOURCES/Images/Buttons/LightGrey/save.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -100,7 +100,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Document:"
+					"text": ":xliff:HDI2_LabelDocument"
 				},
 				"WriteProArea": {
 					"type": "write",
@@ -136,7 +136,7 @@
 					"height": 45,
 					"tooltip": "Insert image with the WP Add picture command",
 					"focusable": false,
-					"text": "Insert Picture",
+					"text": ":xliff:HDI2_BtnInsertPicture",
 					"icon": "/RESOURCES/Images/Buttons/LightGrey/addImage.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -166,7 +166,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Zoom:"
+					"text": ":xliff:HDI2_LabelZoom"
 				},
 				"Line1": {
 					"type": "line",
@@ -174,7 +174,7 @@
 					"left": 40,
 					"width": 917,
 					"sizingX": "grow",
-					"stroke": "#808080"
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -201,7 +201,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Horizontal:"
+					"text": ":xliff:HDI2_LabelHorizontal"
 				},
 				"verticalList": {
 					"type": "dropdown",
@@ -222,7 +222,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Vertical:"
+					"text": ":xliff:HDI2_LabelVertical"
 				},
 				"layerList": {
 					"type": "dropdown",
@@ -243,7 +243,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Layer:"
+					"text": ":xliff:HDI2_LabelLayer"
 				},
 				"3D Button": {
 					"type": "button",
@@ -253,7 +253,7 @@
 					"height": 45,
 					"action": "moveToBack",
 					"focusable": false,
-					"text": "Move to back",
+					"text": ":xliff:HDI2_BtnMoveToBack",
 					"icon": "/RESOURCES/Images/Buttons/LightGrey/moveToBack.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -269,7 +269,7 @@
 					"height": 45,
 					"action": "moveToFront",
 					"focusable": false,
-					"text": "Move to front",
+					"text": ":xliff:HDI2_BtnMoveToFront",
 					"icon": "/RESOURCES/Images/Buttons/LightGrey/moveToFront.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -296,7 +296,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Section:"
+					"text": ":xliff:HDI2_LabelSection"
 				},
 				"pageList": {
 					"type": "dropdown",
@@ -317,7 +317,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Page:"
+					"text": ":xliff:HDI2_LabelPage"
 				},
 				"originList": {
 					"type": "dropdown",
@@ -338,7 +338,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Origin:"
+					"text": ":xliff:HDI2_LabelOrigin"
 				},
 				"Popup Dropdown List5": {
 					"type": "dropdown",
@@ -361,7 +361,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Border:"
+					"text": ":xliff:HDI2_LabelBorder"
 				},
 				"Popup Dropdown List6": {
 					"type": "dropdown",
@@ -384,7 +384,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Background color:"
+					"text": ":xliff:HDI2_LabelBackgroundColor"
 				},
 				"Popup Dropdown List7": {
 					"type": "dropdown",
@@ -407,7 +407,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Padding:"
+					"text": ":xliff:HDI2_LabelPadding"
 				},
 				"Popup Dropdown List8": {
 					"type": "dropdown",
@@ -430,7 +430,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"textAlign": "right",
-					"text": "Border color:"
+					"text": ":xliff:HDI2_LabelBorderColor"
 				}
 			}
 		},
@@ -475,7 +475,7 @@
 					"width": 122,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Horizontal Offset:"
+					"text": ":xliff:HDI2_LabelHorizontalOffset"
 				},
 				"Text7": {
 					"type": "text",
@@ -484,7 +484,7 @@
 					"width": 124,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Vertical Offset:"
+					"text": ":xliff:HDI2_LabelVerticalOffset"
 				},
 				"listLayer2": {
 					"type": "dropdown",
@@ -509,7 +509,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Layer:"
+					"text": ":xliff:HDI2_LabelLayer"
 				},
 				"listOrigin2": {
 					"type": "dropdown",
@@ -535,7 +535,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Origin:"
+					"text": ":xliff:HDI2_LabelOrigin"
 				},
 				"Text11": {
 					"type": "text",
@@ -544,7 +544,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Horizontal:"
+					"text": ":xliff:HDI2_LabelHorizontal"
 				},
 				"Text12": {
 					"type": "text",
@@ -553,7 +553,7 @@
 					"width": 85,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Vertical:"
+					"text": ":xliff:HDI2_LabelVertical"
 				},
 				"listHor2": {
 					"type": "dropdown",

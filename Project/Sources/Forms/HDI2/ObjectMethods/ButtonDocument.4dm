@@ -1,3 +1,5 @@
+var $ptr : Pointer
+var $path : Text
 
 $ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "listDocument")
 

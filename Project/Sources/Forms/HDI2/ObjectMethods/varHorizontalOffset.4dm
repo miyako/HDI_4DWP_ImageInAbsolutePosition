@@ -1,4 +1,3 @@
-
 Case of 
 		
 	: (Form event code:C388=On Data Change:K2:15)
@@ -13,7 +12,7 @@ Case of
 			GOTO OBJECT:C206(vDoc)
 			
 		Else 
-			ALERT:C41("Please, select an image in your document.")
+			ALERT:C41(Localized string("AlertSelectImage"))
 			
 		End if 
 		

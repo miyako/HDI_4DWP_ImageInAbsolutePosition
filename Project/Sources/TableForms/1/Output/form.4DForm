@@ -132,7 +132,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Title:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -157,7 +157,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Text:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -182,7 +182,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]SampleSort:4",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -204,7 +204,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line8": {
 					"type": "line",
@@ -212,14 +212,14 @@
 					"left": 1000,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Line9": {
 					"type": "line",
 					"top": -5,
 					"left": 688,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -238,7 +238,7 @@
 					"top": -5,
 					"left": 416,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter3": {
 					"type": "splitter",
@@ -257,7 +257,7 @@
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"stroke": "automatic"
 				},
 				"Splitter4": {
 					"type": "splitter",

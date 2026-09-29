@@ -5,7 +5,7 @@ Case of
 		// Check if an image is selected
 		If (imgRange#Null:C1517)
 			
-			C_TEXT:C284($txt)
+			var $txt : Text
 			$txt:=Self:C308->{Self:C308->}
 			Case of 
 				: ($txt="wk behind of text")
@@ -18,7 +18,7 @@ Case of
 			End case 
 			
 		Else 
-			ALERT:C41("Please, select an image in your document.")
+			ALERT:C41(Localized string("AlertSelectImage"))
 			
 		End if 
 		

@@ -3,3 +3,28 @@
 	font-size: 13px;
 }
 
+/* macOS Tahoe Liquid Glass vs classic macOS button heights.
+   Push buttons need at least 27px height to receive the rounded Liquid
+   Glass appearance; height is set on both the class-only selector and the
+   compound type+class selector since 4D's CSS engine does not always
+   reliably match the compound selector at runtime. */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}
+

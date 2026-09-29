@@ -1,9 +1,12 @@
+var $ptr : Pointer
+var $path : Text
+
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
 		
 		initHDI
-		OBJECT Get pointer:C1124(Object named:K67:5; "varTxt")->:=TextTabControl{TabControl}
+		OBJECT Get pointer:C1124(Object named:K67:5; "varTxt")->:=TextTabControl{FORM Get current page:C276}
 		OBJECT SET VISIBLE:C603(*; "TextDoc"; False:C215)
 		OBJECT SET VISIBLE:C603(*; "listDocument"; False:C215)
 		OBJECT SET VISIBLE:C603(*; "ButtonDocument"; False:C215)
@@ -14,10 +17,8 @@ Case of
 		OBJECT SET VISIBLE:C603(*; "Line1"; False:C215)
 		
 		
-		C_BOOLEAN:C305(isSelection)
 		isSelection:=False:C215
 		
-		C_LONGINT:C283(valVertOff; valHorOff)
 		valVertOff:=0
 		valHorOff:=0
 		
@@ -33,7 +34,7 @@ Case of
 		
 	: (Form event code:C388=On Page Change:K2:54)
 		
-		OBJECT Get pointer:C1124(Object named:K67:5; "varTxt")->:=TextTabControl{TabControl}
+		OBJECT Get pointer:C1124(Object named:K67:5; "varTxt")->:=TextTabControl{FORM Get current page:C276}
 		
 		Case of 
 			: (FORM Get current page:C276=1)  //Info
@@ -57,7 +58,7 @@ Case of
 				OBJECT SET VISIBLE:C603(*; "WriteProArea"; True:C214)
 				OBJECT SET VISIBLE:C603(*; "Line1"; True:C214)
 				
-				C_LONGINT:C283($x1; $y1; $x2; $y2)
+				var $x1; $y1; $x2; $y2 : Integer
 				OBJECT GET COORDINATES:C663(*; "WriteProArea"; $x1; $y1; $x2; $y2)
 				If (FORM Get current page:C276=2)
 					OBJECT SET COORDINATES:C1248(*; "WriteProArea"; $x1; 257; $x2; $y2)
